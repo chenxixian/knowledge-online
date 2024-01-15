@@ -12,6 +12,7 @@ export type OidcResponse = {
 };
 
 export const loader = async ({ request }) => {
+  console.log('Loader is being called');
   const url = new URL(request.url);
   const code = url.searchParams.get('code');
   if (code === null) {

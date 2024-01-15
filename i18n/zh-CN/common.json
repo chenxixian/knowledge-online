@@ -1,0 +1,40 @@
+{
+  "home": "主页",
+  "page": "页面",
+  "post": "文章",
+  "snippet": "代码游乐场",
+  "status": {
+    "coding": "写代码中",
+    "online": "在线",
+    "offline": "离线"
+  },
+  "meta": {
+    "views": "阅读量： {{views}} ",
+    "wordcount": "文章字数： {{wordcount}}",
+    "readtime": "阅读时间： {{readtime}} 分钟",
+    "not_translated": "This page is not translated yet. Please help to translate it.",
+    "translate_link": "Contribute Translation"
+  },
+  "social": "社交网络",
+  "stats": {
+    "total_contents": "总内容数",
+    "locale_contents": "<span class=\"font-bold text-primary-content\">{{value}}</span> {{locale}} 内容",
+    "total_wordcount": "内容总字数",
+    "locale_wordcount": "<span class=\"font-bold text-primary-content\">{{value}}</span> {{locale}} 字数",
+    "total_views": "总阅读量",
+    "locale_views": "<span class=\"font-bold text-primary-content\">{{value}}</span> {{locale}} 点击",
+    "total_likes": "总点赞数",
+    "locale_likes": "<span class=\"font-bold text-primary-content\">{{value}}</span> {{locale}} 点赞",
+    "total_readtime": "估计阅读时间（小时）",
+    "locale_readtime": "<span class=\"font-bold text-primary-content\">{{value}}</span> 小时 {{locale}}",
+    "github_followers": "Github 粉丝数",
+    "github_stars": "Github Stars",
+    "npm_downloads": "NPM 下载量",
+    "github_prs": "Github PRs",
+    "github_commits": "Github 提交数",
+    "github_contributes": "参与开源项目",
+    "language": "语言",
+    "time_last_week": "本周使用时间",
+    "percentage": "总使用占比"
+  }
+}

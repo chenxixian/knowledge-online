@@ -1,0 +1,40 @@
+{
+  "home": "Home",
+  "page": "Pages",
+  "post": "Posts",
+  "snippet": "Snippets",
+  "status": {
+    "coding": "Coding",
+    "online": "Online",
+    "offline": "Offline"
+  },
+  "meta": {
+    "views": "Views: {{views}} ",
+    "wordcount": "Wordcount: {{wordcount}}",
+    "readtime": "Reading time: {{readtime}} mins",
+    "not_translated": "This page is not translated yet. Please help to translate it.",
+    "translate_link": "Contribute Translation"
+  },
+  "social": "Social Network",
+  "stats": {
+    "total_contents": "Total Contents",
+    "locale_contents": "<span class=\"font-bold text-primary-content\">{{value}}</span> {{locale}} Contents",
+    "total_wordcount": "Total Words",
+    "locale_wordcount": "<span class=\"font-bold text-primary-content\">{{value}}</span> {{locale}} Words",
+    "total_views": "Total Views",
+    "locale_views": "<span class=\"font-bold text-primary-content\">{{value}}</span> {{locale}} Views",
+    "total_likes": "Total Likes",
+    "locale_likes": "<span class=\"font-bold text-primary-content\">{{value}}</span> {{locale}} Likes",
+    "total_readtime": "Total Reading Time (hrs)",
+    "locale_readtime": "<span class=\"font-bold text-primary-content\">{{value}}</span> hrs {{locale}}",
+    "github_followers": "Github Followers",
+    "github_stars": "Github Stars",
+    "npm_downloads": "NPM Downloads",
+    "github_prs": "Github PRs",
+    "github_commits": "Github Commits",
+    "github_contributes": "Repos Contributes",
+    "language": "Language",
+    "time_last_week": "Coding Time / Week",
+    "percentage": "Total Percentage"
+  }
+}

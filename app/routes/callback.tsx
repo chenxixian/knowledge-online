@@ -26,9 +26,15 @@ export const loader : LoaderFunction = async ({ request }) => {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   const user = await resInfo.json();
   return json(user); */
+
+const resInfo = await fetch(
+  `${process.env.AUTHING_APP_DOMAIN}/oidc/me?access_token=${oidcToken.access_token}`
+); 
+const user = await resInfo.json();
 const session = await getSession(request.headers.get('Cookie'));
 session.set('oidc', oidcToken);
-return redirect(request.url || '/', {
+session.set('user', user);
+return redirect('/', {
   headers: { 'Set-Cookie': await commitSession (session) }
 });
 
